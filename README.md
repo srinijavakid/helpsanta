@@ -24,10 +24,10 @@ This is an spring boot project developed witht java
 
 # BUILD and RUN
 
-Download this project in git or san zip file.
-Run maven command to get the dependencies
-Once done run this class manually as java application com.java.knapsack.utils.Application.java
-Check the console for application statrt up, for successful start will get "Tomcat started on port(s): 8080 (http) with context path ''"
+Download this project in git or as an zip file.
+Run maven command to get the dependencies.
+Once done run this class manually as java application **"com.java.knapsack.utils.Application.java"**
+Check the console for application statrt up, for successful start will get "**Tomcat started on port(s): 8080 (http)** with context path ''"
 
 # Testing
 
@@ -35,7 +35,7 @@ In browser open the below URL after application start up successfully
 
 http://localhost:8080/swagger-ui/index.html
 
-Select the /help api and click try it out button
+Select the /help api and click try it out button.
 give the below sample value for the help api and click execute method
 
 Sample Input:
