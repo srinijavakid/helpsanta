@@ -52,16 +52,14 @@ Verify the output (for above input we get below output)
 
 # Unit test datas with Input and output
 
-1. 
-{
+1. {
   "hood_capacity": 102,
   "present_weights": [
     1,4,5,1,35,42
   ]
 }
 [42, 42, 5, 5, 5, 1, 1, 1]
-2.
-{
+2. {
   "hood_capacity": 102,
   "present_weights": [
     1,2,5,9,50,33
