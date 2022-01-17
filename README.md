@@ -49,3 +49,54 @@ Sample Input:
 
 Verify the output (for above input we get below output)
 [11, 11, 7, 1, 1, 1]
+
+# Unit test datas with Input and output
+
+1. 
+{
+  "hood_capacity": 102,
+  "present_weights": [
+    1,4,5,1,35,42
+  ]
+}
+[42, 42, 5, 5, 5, 1, 1, 1]
+2.
+{
+  "hood_capacity": 102,
+  "present_weights": [
+    1,2,5,9,50,33
+  ]
+}
+[50, 50, 2]
+3.
+{
+  "hood_capacity": 102,
+  "present_weights": [
+    1,2,5,9,33
+  ]
+}
+[33, 33, 33, 2, 1]
+4.
+{
+  "hood_capacity": 1,
+  "present_weights": [
+    2
+  ]
+}
+Cant fit weights into hood as per given input data..!
+5.
+{
+  "hood_capacity": -22,
+  "present_weights": [
+    2
+  ]
+}
+Verify the hood capacity value which is incorrect
+6.
+{
+  "hood_capacity": 12,
+  "present_weights": [
+    
+  ]
+}
+Verify the present weight values which is incorrect
